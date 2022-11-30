@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* body{
+    margin: auto;
+} */
+
+.card {
+    @apply mb-5 w-auto block rounded-lg bg-gray-dim;
+}
+
+.primary-button {
+    @apply rounded-lg bg-tbRed py-2 px-4 shadow outline-none hover:bg-orange active:border-black text-ellipsis font-font-dmsans text-white;
+}
+

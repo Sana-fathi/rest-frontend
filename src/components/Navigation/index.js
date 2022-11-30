@@ -6,8 +6,6 @@ import { useRouter } from "next/router";
 import { Badge, IconButton } from "@mui/material";
 
 function index(props) {
- 
-
   const [navbar, setNavbar] = useState(false);
   const [loginInfo, setLoginInfo] = useState(false);
   const router = useRouter();
@@ -47,7 +45,7 @@ function index(props) {
               alignItems: "center",
             }}
           >
-            <Badge
+            {/* <Badge
             badgeContent ={cart.length}
             color="secondary"
             invisible={cart.length === 0}
@@ -60,14 +58,23 @@ function index(props) {
                 minWidth: "13px",
               }
             }}
-            >
-              <IconButton
+            > */}
+            {/* <IconButton
                 // onClick={() => dispatch(setIsCartOpen({}))}
                 sx={{ color: "black" }}
-              >
+              > */}
+
+            <Link href="/menu">
+              <div className="relative">
                 <Cart />
-              </IconButton>
-            </Badge>
+                <span className="absolute -top-2 -right-2 text-[13px] bg-tbRed h-[18px] w-[18px] rounded-full grid place-items-center text-white">
+                  1
+                </span>
+              </div>
+            </Link>
+
+            {/* </IconButton> */}
+            {/* </Badge> */}
           </ul>
         </div>
       </div>
@@ -104,7 +111,7 @@ function index(props) {
           </header>
         </div>
       ) : (
-        <div className="hidden md:flex items-center h-16 bg-green">
+        <div className="hidden md:flex items-center h-10 bg-green">
           <header className="container flex justify-center mx-auto">
             <ul className="inline-flex font-mono text-white">
               <Link href="/">

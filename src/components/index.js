@@ -9,6 +9,6 @@ import OfferImages from './OfferImages'
 import Cards from './Cards'
 import Carousal from './Carousal'
 import About from './About'
-import MenuCard from './MenuCard'
+import ProductItem from './ProductItem'
 
-export {HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,MenuCard}
+export {HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem}
