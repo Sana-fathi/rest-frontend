@@ -1,15 +1,15 @@
 import Link from "next/link";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useContext } from "react";
 import { MenuIcon, Cart, MenuClose } from "../Icons";
 import PincodeInput from "../PincodeInput";
 import { useRouter } from "next/router";
-import { Badge, IconButton } from "@mui/material";
 
-function index(props) {
+function index({ cartItemsCount }) {
   const [navbar, setNavbar] = useState(false);
   const [loginInfo, setLoginInfo] = useState(false);
   const router = useRouter();
   const reflink = useRef();
+
 
   const handleLogOut = (e) => {
     e.preventDefault();
@@ -67,9 +67,12 @@ function index(props) {
             <Link href="/menu">
               <div className="relative">
                 <Cart />
-                <span className="absolute -top-2 -right-2 text-[13px] bg-tbRed h-[18px] w-[18px] rounded-full grid place-items-center text-white">
-                  1
-                </span>
+              
+                    <span className="absolute -top-2 -right-2 text-[13px] bg-tbRed h-[18px] w-[18px] rounded-full grid place-items-center text-white">
+                        2
+                    </span>
+               
+              
               </div>
             </Link>
 
