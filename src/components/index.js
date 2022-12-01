@@ -10,5 +10,7 @@ import Cards from './Cards'
 import Carousal from './Carousal'
 import About from './About'
 import ProductItem from './ProductItem'
+import HeaderSlider from './HeaderSlider'
+import DeliveryMethod from './DeliveryMethod'
 
-export {HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem}
+export {HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod}

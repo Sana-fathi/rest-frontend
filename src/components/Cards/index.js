@@ -2,7 +2,7 @@ import React from 'react'
 
 function index() {
   return (
-    <section className="text-gray-600 body-font lg:px-20">
+  <section className="text-gray-600 body-font lg:px-20">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col items-center mb-10 md:mb-20">
       <a className="font-medium title-font mb-4 w-32 text-gray-900 bg-tbRed px-2 py-1 text-center text-white rounded">Categories</a>
@@ -11,10 +11,11 @@ function index() {
     <div className="flex flex-wrap -m-4 text-center px-3"> 
       <div className="p-4 xl:w-1/6 lg:w-1/3 md:w-1/2 w-full">
         <div className="bg-gray-dim px-4 py-6 rounded-lg">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+          {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
             <path d="M8 17l4 4 4-4m-4-5v9"></path>
             <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
-          </svg>
+          </svg> */}
+          <img src={'https://c.ndtvimg.com/2021-05/k43fiip_biryani650_650x400_10_May_21.jpg'} className='rounded-full w-auto h-auto'/>
           {/* <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2> */}
           <p className="leading-relaxed">Downloads</p>
         </div>
