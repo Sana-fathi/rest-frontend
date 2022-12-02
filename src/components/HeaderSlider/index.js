@@ -19,15 +19,18 @@ export default function SliderComponent() {
             <Swiper
             breakpoints={{
                 576: {
-                  width: 576,
-                  slidesPerView: 2,
-                },
-                768: {
-                  width: 768,
+                  minWidth: 576,
                   slidesPerView: 1,
+                  height: "auto",
+                 
+                },
+                1024: {
+                  minWidth: 1024,
+                  slidesPerView: 1,
+                 
                 },
               }}
-                spaceBetween={30}
+                // spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
                     delay: 5000,
@@ -41,16 +44,16 @@ export default function SliderComponent() {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img className="w-full h-screen" src="https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg"/>
+                    <img className="w-full h-screen object-cover" src="https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="w-full h-screen" src="https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg"/>
+                    <img className="w-full h-screen object-cover" src="https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="w-full h-screen" src="https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg"/>
+                    <img className="w-full h-screen object-cover" src="https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className="w-full h-screen" src="https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg"/>
+                    <img className="w-full h-screen object-cover" src="https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg"/>
                 </SwiperSlide>
                 </Swiper>
         </>
