@@ -51,7 +51,7 @@ function index() {
           </div>
           <div className="flex flex-col">
             <div className="md:w-full px-8 lg:py-6 lg:border-l-2 lg:border-gray-dim border-opacity-60 hover:shadow-md ">
-              <p clasName="text-lg sm:text-xl text-gray-900 font-extrabold mb-2">
+              <p clasName="text-lg sm:text-3xl text-gray-900 font-bold mb-2">
                 Standard Post Format
               </p>
               <p className="leading-relaxed text-base mb-4">

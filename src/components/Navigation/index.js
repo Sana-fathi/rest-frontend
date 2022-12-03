@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState, useRef, useContext } from "react";
+import React, { useState, useRef, useContext, useEffect } from "react";
 import { MenuIcon, Cart, MenuClose } from "../Icons";
 import PincodeInput from "../PincodeInput";
 import { useRouter } from "next/router";
@@ -10,6 +10,17 @@ function index({ cartItemsCount }) {
   const router = useRouter();
   const reflink = useRef();
 
+//   useEffect(() => {
+//     const closeDropdown = e => {
+//       if(e.path[0].tagName !== 'BUTTON') {
+//         setNavbar(t);
+//       }
+//     }
+// document.body.addEventListener('click', closeDropdown);
+
+// return () => document.body.removeEventListener('click',closeDropdown);
+
+//   },[])
 
   const handleLogOut = (e) => {
     e.preventDefault();
@@ -17,7 +28,7 @@ function index({ cartItemsCount }) {
   };
 
   return (
-    <nav className="shadow sticky top-0 z-50 bg-gray-50 md:shadow-none bg-white">
+    <nav className="shadow sticky top-0 z-50 md:shadow-none bg-white">
       <div className="container mx-auto px-2 py-4 flex justify-between">
         {/* <div className="px-3 py-3 md:hidden"> */}
         <div className="px-3 py-3 md:hidden">
@@ -82,8 +93,8 @@ function index({ cartItemsCount }) {
         </div>
       </div>
       {navbar ? (
-        <div className="transition ease-in-out delay-150 items-center h-auto bg-white md:hidden">
-          <header className="container flex justify-center mx-auto">
+        <div className=" items-center h-auto bg-white md:hidden ">
+          <header className="origin-left scale-90 delay-1000 translate-x-4 transition-left container flex justify-center mx-auto">
             <ul className=" font-mono text-center text-gray-dark ">
               <Link href="/">
                 <li className="mx-2 px-4 py-4 hover:border-b-2 hover:border-green">

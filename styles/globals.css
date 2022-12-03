@@ -17,4 +17,16 @@
     @apply rounded-lg bg-tbRed py-2 px-4 shadow outline-none hover:bg-orange active:border-black text-ellipsis font-font-dmsans text-white;
 }
 
+/* .react-multi-carousel-dot-list {
+   @apply bottom-[-30px]
+} */
+
+/* .react-multiple-carousel__arrow .react-multiple-carousel__arrow--left {
+    @apply ml-10
+} */
+
+.carousel-item {
+    @apply px-2
+}
+
 

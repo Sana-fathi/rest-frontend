@@ -30,6 +30,9 @@ module.exports = {
         'font-dmsans': ['DM Sans', 'sans-serif'],
         'caveat' : ['Caveat', 'cursive'],
       },
+      transitionProperty: {
+        'left': 'left',
+      },
     },
   },
   plugins: [],
