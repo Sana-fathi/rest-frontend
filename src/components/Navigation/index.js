@@ -67,8 +67,8 @@ function index({ cartItemsCount }) {
             <Link href="/menu">
               <div className="relative">
                 <Cart />
-              
-                    <span className="absolute -top-2 -right-2 text-[13px] bg-tbRed h-[18px] w-[18px] rounded-full grid place-items-center text-white">
+           {/* badge for cart count */}
+                    <span className="absolute -top-2 -right-2 text-[13px] bg-tbRed h-[18px] w-[18px] rounded-full grid place-items-center text-white">    
                         2
                     </span>
                
@@ -82,7 +82,7 @@ function index({ cartItemsCount }) {
         </div>
       </div>
       {navbar ? (
-        <div className="items-center h-auto bg-white md:hidden">
+        <div className="transition ease-in-out delay-150 items-center h-auto bg-white md:hidden">
           <header className="container flex justify-center mx-auto">
             <ul className=" font-mono text-center text-gray-dark ">
               <Link href="/">

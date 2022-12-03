@@ -18,9 +18,9 @@ module.exports = {
         'orange': '#ff7849',
         'green': '#198754',
         'yellow': '#ffc82c',
-        'gray-dark': '#273444',
-        'gray': '#8492a6',
-        'gray-light': '#d3dce6',
+        // 'gray-dark': '#273444',
+        // 'gray': '#8492a6',
+        // 'gray-light': '#d3dce6',
         'black':'#333',
         'white' : '#fff',
         'gray-dim':'#eeeeee'

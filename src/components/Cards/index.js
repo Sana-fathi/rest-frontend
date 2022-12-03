@@ -13,16 +13,16 @@ function index() {
           </h3>
         </div>
 
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-center">
          
-        <div className="md:w-1/2 lg:w-1/3 xl:w-1/6 py-4 px-4">
+        <div className=" lg:w-1/3 xl:w-1/6 py-4 px-4">
             <div className=" ">
              
                 <div className="bg-white relative">
-                  <div className="flex justify-center ">
+                  <div className="flex justify-center">
                     <img
                       src={"./assets/img3.jpeg"}
-                      className="rounded-full -mt-6  object-center object-cover mr-2 h-32 w-32 outline-double outline-gray hover:animate-pulse"
+                      className="rounded-full -mt-6  object-center object-cover mr-2 h-40 w-40 p-1 outline-double outline-gray  hover:outline-double hover:outline-orange"
                     />
                   </div>
                   <div className="py-2 px-2">
@@ -36,14 +36,14 @@ function index() {
           </div>
 
          
-          <div className="md:w-1/2 lg:w-1/3 xl:w-1/6 py-4 px-4">
+          <div className=" lg:w-1/3 xl:w-1/6 py-4 px-4">
             <div className=" ">
               <a href="">
                 <div className="bg-white relative">
                   <div className="flex justify-center">
                     <img
-                      src={"./assets/img3.jpeg"}
-                      className="rounded-full -mt-6  object-center object-cover mr-2 h-32 w-32"
+                      src={"./assets/img2.jpeg"}
+                      className="rounded-full -mt-6  object-center object-cover mr-2 h-40 w-40 p-1 outline-double outline-gray  hover:outline-double hover:outline-orange"
                     />
                   </div>
                   <div className="py-2 px-2">
@@ -56,14 +56,14 @@ function index() {
             </div>
           </div>
 
-          <div className="md:w-1/2 lg:w-1/3 xl:w-1/6 py-4 px-4">
+          <div className=" lg:w-1/3 xl:w-1/6 py-4 px-4">
             <div className=" ">
               <a href="">
                 <div className="bg-white relative">
                   <div className="flex justify-center">
                     <img
-                      src={"./assets/img3.jpeg"}
-                      className="rounded-full -mt-6  object-center object-cover mr-2 h-32 w-32"
+                      src={"./assets/img4.jpeg"}
+                      className="rounded-full -mt-6  object-center object-cover mr-2 h-40 w-40 p-1 outline-double outline-gray  hover:outline-double hover:outline-orange"
                     />
                   </div>
                   <div className="py-2 px-2">
@@ -76,14 +76,14 @@ function index() {
             </div>
           </div>
           
-          <div className="md:w-1/2 lg:w-1/3 xl:w-1/6 py-4 px-4">
+          <div className=" lg:w-1/3 xl:w-1/6 py-4 px-4">
             <div className=" ">
               <a href="">
-                <div className="bg-white relative">
+                <div className="bg-white relative"> 
                   <div className="flex justify-center">
                     <img
-                      src={"./assets/img3.jpeg"}
-                      className="rounded-full -mt-6  object-center object-cover mr-2 h-32 w-32"
+                      src={"./assets/img1.jpeg"}
+                      className="rounded-full -mt-6  object-center object-cover mr-2 h-40 w-40 p-1 outline-double outline-gray  hover:outline-double hover:outline-orange"
                     />
                   </div>
                   <div className="py-2 px-2">
@@ -97,14 +97,14 @@ function index() {
           </div>
 
           
-          <div className="md:w-1/2 lg:w-1/3 xl:w-1/6 py-4 px-4">
+          <div className=" lg:w-1/3 xl:w-1/6 py-4 px-4">
             <div className=" ">
               <a href="">
                 <div className="bg-white relative">
                   <div className="flex justify-center">
                     <img
                       src={"./assets/img3.jpeg"}
-                      className="rounded-full -mt-6  object-center object-cover mr-2 h-32 w-32"
+                      className="rounded-full -mt-6  object-center object-cover mr-2 h-40 w-40 p-1 outline-double outline-gray  hover:outline-double hover:outline-orange"
                     />
                   </div>
                   <div className="py-2 px-2">
@@ -119,14 +119,14 @@ function index() {
 
           
 
-          <div className="md:w-1/2 lg:w-1/3 xl:w-1/6 py-4 px-4">
+          <div className=" lg:w-1/3 xl:w-1/6 py-4 px-4">
             <div className=" ">
               <a href="">
                 <div className="bg-white relative">
                   <div className="flex justify-center">
                     <img
-                      src={"./assets/img3.jpeg"}
-                      className="rounded-full -mt-6  object-center object-cover mr-2 h-32 w-32"
+                      src={"./assets/img4.jpeg"}
+                      className="rounded-full -mt-6  object-center object-cover mr-2 h-40 w-40 p-1 outline-double outline-gray  hover:outline-double hover:outline-orange"
                     />
                   </div>
                   <div className="py-2 px-2">
