@@ -13,5 +13,7 @@ import ProductItem from './ProductItem'
 import HeaderSlider from './HeaderSlider'
 import DeliveryMethod from './DeliveryMethod'
 import Bag from './Bag' 
-
-export {HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod,Bag}
+import LoginModal from './LoginModal'
+import Category from './Category'
+export {
+    HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod,Bag, LoginModal, Category}

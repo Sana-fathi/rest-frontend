@@ -2,6 +2,7 @@ import Link from "next/link";
 // import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+// import './carousel.css'
 // import {BsDot} from 'react-icons/bs'
 
 function index(props) {
@@ -58,7 +59,7 @@ function index(props) {
     },
   };
   return (
-    <div className="w-auto">
+    <div className="w-auto z-10">
       <Carousel
         swipeable={true}
         // draggable={true}

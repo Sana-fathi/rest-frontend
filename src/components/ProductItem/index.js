@@ -9,23 +9,23 @@ const index = ({product}) => {
             <Image 
             src={product.image}
             alt={product.name}
-            className="rounded-t-[25px] object-cover h-64 w-full"
-            width={400}
-            height={200}
+            className="rounded-t-lg object-cover w-full"
+            width={300}
+            height={300}
             />
         </Link>
 
-        <div className='flex flex-col  justify-center p-4'>
+        <div className='flex flex-col  justify-center px-4 w-auto xl:w-72'>
             <Link href={`/menu`}>
                 <h2 className='text-lg font-bold text-gray-dark font-font-dmsans mb-1'>{product.name}</h2>
             </Link>
             <p className='mb-2 text-gray-dark font-bold'>{product.price}</p>
-            <button
+            {/* <button
              className='primary-button' 
              type='button'
              >
                 ADD TO CART
-            </button>
+            </button> */}
         </div>
     </div>
   )
