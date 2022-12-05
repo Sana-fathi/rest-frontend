@@ -12,5 +12,6 @@ import About from './About'
 import ProductItem from './ProductItem'
 import HeaderSlider from './HeaderSlider'
 import DeliveryMethod from './DeliveryMethod'
+import Bag from './Bag' 
 
-export {HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod}
+export {HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod,Bag}

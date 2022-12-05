@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 // import {BsDot} from 'react-icons/bs'
@@ -9,8 +9,8 @@ function index(props) {
 
   function Slide() {
     return (
-      <div className=" h-[450px] w-auto">
-        <div className="bg-gray-dim rounded-lg lg:w-72 mx-10">
+      <div className="h-96 xl:h-[380px] sm:h-72 w-auto">
+        <div className="bg-gray-dim rounded-lg sm:w-48 xl:w-64 mx-10">
           <div className="rounded-b-sm">
             <div>
               <img className="rounded-t-lg" src={"/assets/img4.jpeg"} />
@@ -25,7 +25,7 @@ function index(props) {
             </div>
             <button
               type="button"
-              className="px-5 text-gray-600 font-medium border border-gray-500 py-1 mx-5 rounded-md mb-2 shadow-sm focus:outline-1 focus:border-black"
+              className="primary-button mx-4"
             >
               Add to Bag
             </button>
@@ -37,14 +37,19 @@ function index(props) {
 
   const responsive = {
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 3, // optional, default to 1.
+      breakpoint: { max: 3000, min: 1440 },
+      items: 4,
+      slidesToSlide: 4, // optional, default to 1.
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2, // optional, default to 1.
+      breakpoint: { max: 1024, min: 768 },
+      items: 4,
+      slidesToSlide: 4, // optional, default to 1.
+    },
+    tablet2: {
+      breakpoint: { max: 768 , min: 464 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -70,13 +75,14 @@ function index(props) {
         // removeArrowOnDeviceType={}
         // deviceType={props.deviceType}
         // dotListClass="custom-dot-list-style"
-        itemClass="carousel-item"
+        // itemClass="carousel-item"
         // customDot={<CustomDot />}
         // renderDotsOutside={true}
         // customDot={<CustomDot />}
         // customRightArrow={<CustomRightArrow />}
         // customLeftArrow={<CustomLeftArrow />}
       >
+        <div className="">{Slide()}</div>
         <div className="">{Slide()}</div>
         <div className="">{Slide()}</div>
         <div className="">{Slide()}</div>
