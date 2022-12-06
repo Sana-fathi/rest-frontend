@@ -5,7 +5,7 @@ function index() {
     <section className="text-gray-600 body-font lg:px-20">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col items-center mb-10 md:mb-20">
-          <a className="font-medium title-font mb-4 w-32 text-gray-900 bg-tbRed px-2 py-1 text-center text-white rounded">
+          <a className="font-medium title-font mb-4 w-32 bg-tbRed px-2 py-1 text-center text-white rounded">
             Categories
           </a>
           <h3 className="sm:text-4xl text-2xl leading-relaxed font-worksans font-bold">

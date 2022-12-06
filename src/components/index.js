@@ -13,7 +13,9 @@ import ProductItem from './ProductItem'
 import HeaderSlider from './HeaderSlider'
 import DeliveryMethod from './DeliveryMethod'
 import Bag from './Bag' 
-import LoginModal from './LoginModal'
 import Category from './Category'
+import LoginPop from './LoginPop'
 export {
-    HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod,Bag, LoginModal, Category}
+    HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod,Bag, Category
+,  LoginPop
+}

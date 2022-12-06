@@ -20,12 +20,12 @@ const index = ({product}) => {
                 <h2 className='text-lg font-bold text-gray-dark font-font-dmsans mb-1'>{product.name}</h2>
             </Link>
             <p className='mb-2 text-gray-dark font-bold'>{product.price}</p>
-            {/* <button
-             className='primary-button' 
+            <button
+             className='primary-button mb-2' 
              type='button'
              >
                 ADD TO CART
-            </button> */}
+            </button>
         </div>
     </div>
   )
