@@ -26,7 +26,6 @@ const index = ({ onClose }) => {
 
   //   },[])
 
-
   const handleLogOut = (e) => {
     e.preventDefault();
     router.push("/");
@@ -64,7 +63,7 @@ const index = ({ onClose }) => {
                       <Menu as="div" className="relative inline-block">
                         <div>
                           <Menu.Button className="inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-                            <User />
+                           <User /> <p className="text-gray-600">user</p>
                             <ChevronDownIcon
                               className=" -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
                               aria-hidden="true"
@@ -84,6 +83,7 @@ const index = ({ onClose }) => {
                             <div className="px-1 py-1 ">
                               <Menu.Item>
                                 {({ active }) => (
+                                  <Link href={"/my-account"}>
                                   <button
                                     className={`${
                                       active
@@ -93,12 +93,14 @@ const index = ({ onClose }) => {
                                   >
                                     Dashboard
                                   </button>
+                                  </Link>
                                 )}
                               </Menu.Item>
                             </div>
                             <div className="px-1 py-1">
                               <Menu.Item>
                                 {({ active }) => (
+                                  <Link href={"/my-account/profile"}>
                                   <button
                                     className={`${
                                       active
@@ -108,6 +110,7 @@ const index = ({ onClose }) => {
                                   >
                                     Profile
                                   </button>
+                                  </Link>
                                 )}
                               </Menu.Item>
                             </div>
@@ -134,12 +137,12 @@ const index = ({ onClose }) => {
                   </li>
                 ) : (
                   <>
-                    <button className="" onClick={() => setShow(true)}>
+                    <Link href={"/login"}>
                       <span className="flex flex-row text-gray-500 font-semibold font-font-dmsans">
                         <User /> Login
                       </span>
-                    </button>
-                    <LoginPop isVisible={show} onClose={() => setShow(false)} />
+                    </Link>
+                    {/* <LoginPop isVisible={show} onClose={() => setShow(false)} /> */}
                   </>
                 )}
               </div>
@@ -149,9 +152,7 @@ const index = ({ onClose }) => {
                 <button type="button" onClick={() => setOpen(true)}>
                   <div className="relative">
                     <Cart />
-                    <span
-                      className='absolute -top-2 -right-2 text-[13px] bg-tbRed h-[18px] w-[18px] rounded-full grid place-items-center text-white'
-                    >
+                    <span className="absolute -top-2 -right-2 text-[13px] bg-tbRed h-[18px] w-[18px] rounded-full grid place-items-center text-white">
                       2
                     </span>
                   </div>
@@ -162,8 +163,7 @@ const index = ({ onClose }) => {
               {/* </Badge> */}
             </ul>
           </div>
-          <Bag isVisible={open} onClose={() => setOpen(false)}/>
-
+          <Bag isVisible={open} onClose={() => setOpen(false)} />
         </div>
         {navbar ? (
           <div className=" items-center h-auto bg-white md:hidden">
