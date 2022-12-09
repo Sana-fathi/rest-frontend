@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState, useRef, Fragment } from "react";
+import React, { useState, useRef, Fragment, useEffect } from "react";
 import { MenuIcon, Cart, MenuClose, User } from "../Icons";
 import { PincodeInput, Bag, LoginPop } from "..";
 import { useRouter } from "next/router";
@@ -7,24 +7,29 @@ import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const index = ({ onClose }) => {
+  // if ( !isVisible ) return null;
   const [navbar, setNavbar] = useState(false);
   const [isLogin, setIsLogin] = useState(false);
   const [show, setShow] = useState(false);
   const [open, setOpen] = useState(false);
   const router = useRouter();
-  const reflink = useRef();
+  const reflink = useRef(); 
 
-  //   useEffect(() => {
-  //     const closeDropdown = e => {
-  //       if(e.path[0].tagName !== 'BUTTON') {
-  //         setNavbar(t);
-  //       }
-  //     }
-  // document.body.addEventListener('click', closeDropdown);
+// const handleClose = (e) => {
+//     if (e.target.id === 'wrapper') onClose();
+// }
 
-  // return () => document.body.removeEventListener('click',closeDropdown);
+const menuRef= useRef();
 
-  //   },[])
+    useEffect(() => {
+      document.addEventListener("mousedown", (e) => {
+        if(menuRef.current && !menuRef.current.contains(e.target)) {
+          setNavbar(false);
+        }
+      }) 
+    },[])
+
+
 
   const handleLogOut = (e) => {
     e.preventDefault();
@@ -34,9 +39,9 @@ const index = ({ onClose }) => {
   return (
     <>
       <nav className="shadow sticky fixed-top top-8 z-50 md:shadow-none bg-white">
-        <div className="container mx-auto px-2 py-1 md:py-2 flex justify-between">
+        <div className="container mx-auto px-2 py-1 md:py-2 flex justify-between" >
           {/* <div className="px-3 py-3 md:hidden"> */}
-          <div className="px-3 py-3 md:hidden">
+          <div className="px-3 py-3 md:hidden ">
             <button
               className="p-2 text-gray-700 outline-none"
               onClick={() => setNavbar(!navbar)}
@@ -166,8 +171,10 @@ const index = ({ onClose }) => {
           <Bag isVisible={open} onClose={() => setOpen(false)} />
         </div>
         {navbar ? (
-          <div className=" items-center h-auto bg-white md:hidden">
-            <header className="origin-left scale-90 delay-1000 translate-x-4 transition-left container flex justify-center mx-auto">
+          <div className=" items-center h-auto bg-white md:hidden  " ref={menuRef} >
+            <header className={`container flex justify-center mx-auto
+            ${navbar ? 'translate-x-0' : 'translate-x-full' } ease-in-out duration-500
+            `}>
               <ul className=" font-mono text-center text-gray-dark ">
                 <Link href="/">
                   <li className="mx-2 px-4 py-4 hover:border-b-2 hover:border-green">
@@ -305,8 +312,8 @@ const index = ({ onClose }) => {
                     </li>
                   ) : (
                     <>
-                      <button className="" onClick={() => setShow(true)}>
-                        <span className="flex flex-row text-gray-500 font-semibold font-font-dmsans">
+                      <button className="mb-5" onClick={() => setShow(true)}>
+                        <span className="flex flex-row text-gray-500 font-semibold font-font-dmsans ">
                           <User /> Login
                         </span>
                       </button>

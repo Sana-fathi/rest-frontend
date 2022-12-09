@@ -5,7 +5,8 @@ Home.getLayout = function getLayout(page) {
   return <Layout>{page}</Layout>;
 };
 
-export default function Home(props) {
+export default function Home({ }) {
+ 
   return (
     <>    
 <HeaderSlider/>
