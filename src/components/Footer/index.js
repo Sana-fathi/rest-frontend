@@ -110,10 +110,10 @@ height:"auto"}}>
         <AuthModal /> */}
       <div className="py-2 pt-8 px-10 lg:flex flex-row justify-between">
         <div className="flex flex-col text-center lg:text-left lg:px-5">
-          <p className="text-white text-2xl font-font-worksans font-extrabold lg:w-72">
+          <p className="text-white text-2xl font-worksans font-extrabold lg:w-72">
             ¿Te apasiona ayudar a tu comunidad?
           </p>
-          <h1 className="text-white text-5xl font-font-worksans font-extrabold">
+          <h1 className="text-white text-5xl font-worksans font-extrabold">
             Fonditas
           </h1>
           <div className="px-5">
@@ -143,7 +143,7 @@ height:"auto"}}>
           </div>
         </div>
         <div className="flex  flex-row justify-center mt-5 xl:mx-20">
-          <div className="px-4 text-white mx-10 font-font-dmsans">
+          <div className="px-4 text-white mx-10 font-dmsans">
           <div className="">Menu</div>
           <ul className="list">
             <Link href={"/"}>
@@ -154,7 +154,7 @@ height:"auto"}}>
             </Link>
           </ul>
         </div>
-        <div className="text-white px-5 mx-10 font-font-dmsans">
+        <div className="text-white px-5 mx-10 font-dmsans">
           <ul className="list">
             <Link href={"/"}>
               <li>Nosotros</li>
@@ -167,7 +167,7 @@ height:"auto"}}>
        
         <div className="flex justify-around mt-3">
           <form>
-            <h3 className="text-white font-font-dmsans">Subscribe</h3>
+            <h3 className="text-white font-dmsans">Subscribe</h3>
             <div className="">
               <input
                 onChange={(e) => setField("mail", e.target.value)}

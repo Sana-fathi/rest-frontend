@@ -5,6 +5,12 @@ import { useRouter } from 'next/router';
 
 function DashboardMenu({logout}) {
     const router = useRouter()    
+
+    
+  const handleLogOut = (e) => {
+    e.preventDefault();
+    router.push("/");
+  };
     
     return (
         <div className="w-auto mx-10">
@@ -15,7 +21,7 @@ function DashboardMenu({logout}) {
                     </Link>
                 </li>
                 <li className="px-20 py-2 border" >
-                    <Link href="/my-account/orders">
+                    <Link href="/my-account/order">
                     ORDERS
                     </Link>
                 </li>
@@ -34,10 +40,7 @@ function DashboardMenu({logout}) {
                     ADDRESSES
                     </a></Link>
                 </li> */}
-                <li onClick={()=>{
-                    logout()
-                    router.push("/")
-                    }}className="primary-button mt-10 text-center mb-10">
+                <li onClick={(e)=>handleLogOut(e)}className="primary-button mt-10 text-center mb-10">
                     <span className="nav-link text-uppercase" type="button">
                     LOGOUT
                     </span>

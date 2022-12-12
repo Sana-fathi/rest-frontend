@@ -20,7 +20,4 @@ function index({ children }) {
 
 export default index;
 
-// FFE9A0
-// 367E18
-// F57328
-// CC3636
+

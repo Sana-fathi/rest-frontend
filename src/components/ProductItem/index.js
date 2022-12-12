@@ -17,7 +17,7 @@ const index = ({product}) => {
 
         <div className='flex flex-col  justify-center px-4 w-auto xl:w-72'>
             <Link href={`/menu`}>
-                <h2 className='text-lg font-bold text-gray-dark font-font-dmsans mb-1'>{product.name}</h2>
+                <h2 className='text-lg font-bold text-gray-dark font-dmsans mb-1'>{product.name}</h2>
             </Link>
             <p className='mb-2 text-gray-dark font-bold'>{product.price}</p>
             <button

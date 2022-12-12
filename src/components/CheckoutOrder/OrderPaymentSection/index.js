@@ -16,7 +16,7 @@ function index() {
       <div className="row">
         <div className="col-12">
           <div className="mb-3">
-            <label className="text-lg text-gray-500 font-semibold font-font-worksans" htmlFor="check-payment-type">
+            <label className="text-lg text-gray-500 font-semibold font-worksans" htmlFor="check-payment-type">
               Payment Method
             </label>
             <div className="row">
@@ -29,7 +29,7 @@ function index() {
                     name="check-payment-type"
                     defaultValue="PAY_NOW"
                   />
-                  <label className="mt-1 text-gray-500 font-font-worksans font-bold" htmlFor="check-pay-now">
+                  <label className="mt-1 text-gray-500 font-worksans font-bold" htmlFor="check-pay-now">
                     PAY NOW
                   </label>
                 </div>

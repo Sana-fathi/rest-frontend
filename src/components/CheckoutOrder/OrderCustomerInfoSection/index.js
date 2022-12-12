@@ -14,13 +14,13 @@ function index() {
           <div className="col-12 col-lg-6">
             <div className="mb-3">
               <label
-                className="font-font-worksans text-sm text-gray-600"
+                className="font-worksans text-sm text-gray-600"
                 htmlFor="input_first_name"
               >
                 First Name*
               </label>
               <input
-                className="form-control block w-full px-4 py-1 text-sm font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                className="form-control block w-full px-4 py-1 text-sm font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 type="text"
                 placeholder="Full Name"
                 name="input_full_name"
@@ -30,13 +30,13 @@ function index() {
           <div className="col-12 col-lg-6">
             <div className="mb-3">
               <label
-                className="font-font-worksans text-sm text-gray-600"
+                className="font-worksans text-sm text-gray-600"
                 htmlFor="input_last_name"
               >
                 Last Name*
               </label>
               <input
-                className="form-control block w-full px-4 py-1 text-sm font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                className="form-control block w-full px-4 py-1 text-sm font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 type="text"
                 placeholder="Last Name"
                 name="input_last_name"
@@ -46,13 +46,13 @@ function index() {
           <div className="col-12 col-lg-6">
             <div className="mb-3">
               <label
-                className="font-font-worksans text-sm text-gray-600"
+                className="font-worksans text-sm text-gray-600"
                 htmlFor="input_contact_number"
               >
                 Phone Number*
               </label>
               <input
-                className="form-control block w-full px-4 py-1 text-sm font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                className="form-control block w-full px-4 py-1 text-sm font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 type="text"
                 id="card_holder-2"
                 placeholder="Mobile"
@@ -64,13 +64,13 @@ function index() {
           <div className="col-12 col-lg-6">
             <div className="mb-3">
               <label
-                className="font-font-worksans text-sm text-gray-600"
+                className="font-worksans text-sm text-gray-600"
                 htmlFor="input_email"
               >
                 Email*
               </label>
               <input
-                className="form-control block w-full px-4 py-1 text-sm font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                className="form-control block w-full px-4 py-1 text-sm font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 type="text"
                 id="card_holder-2"
                 placeholder="Email"

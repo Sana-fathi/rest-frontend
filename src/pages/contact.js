@@ -10,7 +10,7 @@ function contact(props) {
     <>
       <section className="text-gray-600 body-font relative">
         <div className="text-black text-center mt-10">
-          <h3 className="text-6xl font-bold font-font-worksans">Contact Us</h3>
+          <h3 className="text-6xl font-bold font-worksans">Contact Us</h3>
         </div>
         {/* info */}
 
@@ -156,7 +156,7 @@ function contact(props) {
             <div className="relative mb-4">
               <label
                 for="message"
-                className="leading-7 text-sm text-gray-dark font-normal font-font-dmsans"
+                className="leading-7 text-sm text-gray-dark font-normal font-dmsans"
               >
                 Message
               </label>

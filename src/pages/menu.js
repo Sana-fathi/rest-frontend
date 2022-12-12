@@ -12,7 +12,7 @@ function menu(props) {
     <div className='mt-10 '>
     <div className='flex flex-col items-center justify-center border-b-2 border-gray-300 xl:mx-4'>
     <p className='bg-tbRed px-1 py-1 rounded-lg w-28 text-white font-medium text-center mb-4'>Menu</p>
-    <h3 className='text-center font-extrabold font-font-worksans text-4xl mb-3'>Order Now</h3>
+    <h3 className='text-center font-extrabold font-worksans text-4xl mb-3'>Order Now</h3>
     {/* <div className="mx-5 h-1 bg-gray-300 rounded mt-2 mb-4"></div> */}
       </div>
 

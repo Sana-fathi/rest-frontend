@@ -32,7 +32,7 @@ export default function Example() {
           <div className="relative w-full cursor-default overflow-hidden bg-white text-left border-b-2 border-gray-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-teal-300 sm:text-sm">
             <Combobox.Input
             placeholder='enter pincode'
-              className="w-72 py-2 pl-3 pr-10 text-sm leading-5 font-medium font-font-dmsans  text-gray-700 focus:ring-0"
+              className="w-72 py-2 pl-3 pr-10 text-sm leading-5 font-medium font-dmsans  text-gray-700 focus:ring-0"
               // displayValue={(person) => person.name}
               onChange={(event) => setQuery(event.target.value)}
             />

@@ -25,7 +25,7 @@ function index() {
                 <p className="text-end d-none item-description" style={{fontSize: '12px'}}>x3</p>
               </div> */}
 
-        <div className="mb-3 font-medium font-font-dmsans text-gray-700">
+        <div className="mb-3 font-medium font-dmsans text-gray-700">
           <div className="flex flex-row justify-between ">
             <span>Sub Total</span>
             <span className="price">$00</span>

@@ -13,7 +13,7 @@
 }
 
 .primary-button {
-  @apply rounded-lg bg-tbRed py-2 px-4 shadow outline-none active:border-black font-bold font-font-dmsans text-white;
+  @apply rounded-lg bg-tbRed py-2 px-4 shadow outline-none active:border-black font-bold font-dmsans text-white;
 }
 
 /* .react-multi-carousel-dot-list {

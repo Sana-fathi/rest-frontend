@@ -55,7 +55,7 @@ function Slide() {
         <div className="container">
         <h3 className="font-caveat text-3xl text-yellow">Best Way to Order Your Favourite Food!</h3>
         </div>
-        <p className="text-gray-500 py-3 font-bold text-gray-dim font-font-dmsans text-4xl">Your favourite restaurants at your fingertips.</p>
+        <p className="text-gray-500 py-3 font-bold font-dmsans text-4xl">Your favourite restaurants at your fingertips.</p>
     {/* <OfferImages /> */}
       </div>
     </div>

@@ -18,7 +18,7 @@ function index() {
           <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
             <form>
               <div className="flex flex-row items-center justify-center lg:justify-start">
-                <p className="mb-0 mr-4 font-font-dmsans text-gray-700 text-3xl">
+                <p className="mb-0 mr-4 font-dmsans text-gray-700 text-3xl">
                   Reset Password
                 </p>                
               </div>
@@ -30,7 +30,7 @@ function index() {
               <div className="mb-6">
                 <input
                   type="email"
-                  className="form-control block w-full px-4 py-2 text-xl font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-4 py-2 text-xl font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   id="exampleFormControlInput2"
                   placeholder="Email address"
                 />
@@ -84,14 +84,14 @@ function index() {
     // <div>
     //   <div>
     //     {" "}
-    //     <p className="text-lg mb-0 mr-4 font-font-dmsans text-gray-700">
+    //     <p className="text-lg mb-0 mr-4 font-dmsans text-gray-700">
     //       Reset Password
     //     </p>
     //   </div>
     //   <div className="mb-6">
     //     <input
     //       type="text"
-    //       className="form-control block w-full px-4 py-2 text-xl font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+    //       className="form-control block w-full px-4 py-2 text-xl font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
     //       id="exampleFormControlInput2"
     //       placeholder="Email address"
     //     />

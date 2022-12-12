@@ -9,11 +9,11 @@ function index(props) {
           <ul className=" text-white px-5">
             <li className="mr-4 inline-flex content-center items-center">
               <PhoneIcon className="mr-1 w-4 h-4" />
-              <span className="hidden md:inline  text-[12px] font-font-dmsans">+65 9810 9499</span>
+              <span className="hidden md:inline  text-[12px] font-dmsans">+65 9810 9499</span>
             </li>
             <li className="mr-4 inline-flex items-center">
               <MailIcon className=" mr-1 w-4 h-4" />
-              <span className="hidden md:inline text-[12px] font-font-dmsans">support@atees.sg</span>
+              <span className="hidden md:inline text-[12px] font-dmsans">support@atees.sg</span>
             </li>
        
           </ul>

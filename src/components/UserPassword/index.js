@@ -24,7 +24,7 @@ function UserPassword() {
                       New password
                     </label>
                     <input
-                        className="form-control block w-full px-4 py-2 text-xl font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                        className="form-control block w-full px-4 py-2 text-xl font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                         type="password"
                       name="new_password"
                       placeholder="New Password"
@@ -42,7 +42,7 @@ function UserPassword() {
                       repeat new password
                     </label>
                     <input
-                        className="form-control block w-full px-4 py-2 text-xl font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                        className="form-control block w-full px-4 py-2 text-xl font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                         type="password"
                       name="new_password_repeat"
                       placeholder="Repeat Password"
@@ -60,7 +60,7 @@ function UserPassword() {
                       old password
                     </label>
                     <input
-                        className="form-control block w-full px-4 py-2 text-xl font-font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                        className="form-control block w-full px-4 py-2 text-xl font-dmsans font-normal text-gray-700 bg-white bg-clip-padding  border-2 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                         type="password"
                       name="old_password"
                       placeholder="Old Password"

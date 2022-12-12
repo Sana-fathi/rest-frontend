@@ -26,8 +26,8 @@ module.exports = {
         'gray-dim':'#eeeeee'
       },
       fontFamily: {
-        'font-worksans': ['Work Sans', 'sans-serif'],
-        'font-dmsans': ['DM Sans', 'sans-serif'],
+        'worksans': ['Work Sans', 'sans-serif'],
+        'dmsans': ['DM Sans', 'sans-serif'],
         'caveat' : ['Caveat', 'cursive'],
       },
       transitionProperty: {

@@ -4,7 +4,7 @@ import React from "react";
 function index() {
   return (
     <>
-      <section className="text-gray-dark body-font font-font-dmsans flex space-x-4">
+      <section className="text-gray-dark body-font font-dmsans flex space-x-4">
         <div className="container px-5 py-24 mx-auto flex flex-col lg:flex-row">
           <div className="flex flex-col text-center lg:text-left mb-20">
             <div className="wrapper antialiased text-gray-900">
@@ -22,7 +22,7 @@ function index() {
                     </h4>
 
                     <div className="mt-4">
-                      <p className="font-font-dmsans font-medium">
+                      <p className="font-dmsans font-medium">
                         Lorem ipsum dolor sit amet, consectetur adipisici elit,
                         sed eiusmod tempor incidunt ut labore et dolore magna
                         aliqua. Idque Caesaris Lorem ipsum dolor sit amet,
@@ -30,7 +30,7 @@ function index() {
                         ut labore et dolore magna aliqua. Idque Caesaris
                       </p>
                     </div>
-                    <a className="text-gray-700 inline-flex items-center font-semibold font-font-dmsans">
+                    <a className="text-gray-700 inline-flex items-center font-semibold font-dmsans">
                       Learn More
                       <svg
                         fill="none"
@@ -55,12 +55,12 @@ function index() {
               <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">
                 Melanchole
               </h2>
-              <p className="leading-relaxed text-base mb-4 font-font-dmsans font-medium">
+              <p className="leading-relaxed text-base mb-4 font-dmsans font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipisici elit, sed
                 eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque
                 Caesaris
               </p>
-              <a className="text-gray-700 inline-flex items-center font-semibold font-font-dmsans">
+              <a className="text-gray-700 inline-flex items-center font-semibold font-dmsans">
                 Learn More
                 <svg
                   fill="none"
@@ -79,12 +79,12 @@ function index() {
             <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">
               Melanchole
             </h2>
-            <p className="leading-relaxed text-base mb-4 font-font-dmsans font-medium">
+            <p className="leading-relaxed text-base mb-4 font-dmsans font-medium">
               Lorem ipsum dolor sit amet, consectetur adipisici elit, sed
               eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque
               Caesaris
             </p>
-            <a className="text-gray-700 inline-flex items-center font-semibold font-font-dmsans">
+            <a className="text-gray-700 inline-flex items-center font-semibold font-dmsans">
               Learn More
               <svg
                 fill="none"

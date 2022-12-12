@@ -60,7 +60,7 @@ function index({logout, userInfo, clearCart}) {
         <div className="container mt-16">
         <div className='flex flex-col items-center justify-center mb-10 border-b-2 border-gray-300 xl:mx-10'>
     <div className='text-center rounded-full mb-2 bg-tbRed px-3 py-3 text-white'><User/></div>
-    <h3 className='text-center font-bold font-font-worksans text-4xl mb-8'>My Account</h3>
+    <h3 className='text-center font-bold font-worksans text-4xl mb-8'>My Account</h3>
     {/* <div className="mx-5 h-1 bg-gray-300 rounded mt-2 mb-4"></div> */}
       </div>
           <div className="flex flex-col md:flex-row space-x-3">

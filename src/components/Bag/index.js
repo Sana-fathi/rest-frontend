@@ -32,35 +32,35 @@ const index = ({ isVisible, onClose }) => {
               {/* LOGIN FORM STARTS */}
 
               <div className=" flex justify-center mb-10">
-                <h3 className="text-xl text-center font-font-dmsans font-bold text-gray-700">
+                <h3 className="text-xl text-center font-dmsans font-bold text-gray-700">
                   SHOPPING BAG
                 </h3>
               </div>
 
               <div className="px-10 space-y-2">
                 <div className="flex flex-row justify-between">
-                  <h4 className="font-semibold font-font-dmsans text-gray-700">Subtotal:</h4>
-                  <p className="text-gray-700 font-font-dmsans">$23</p>
+                  <h4 className="font-semibold font-dmsans text-gray-700">Subtotal:</h4>
+                  <p className="text-gray-700 font-dmsans">$23</p>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <h4 className="text-gray-700 font-font-dmsans">Shipping</h4>
+                  <h4 className="text-gray-700 font-dmsans">Shipping</h4>
                   <p className="text-gray-700">$23</p>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <h4 className="text-gray-700 font-font-dmsans">Subtotal</h4>
-                  <p className="text-gray-700 font-font-dmsans">$23</p>
+                  <h4 className="text-gray-700 font-dmsans">Subtotal</h4>
+                  <p className="text-gray-700 font-dmsans">$23</p>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <h4 className="text-gray-700 font-font-dmsans">Subtotal</h4>
-                  <p className="text-gray-700 font-font-dmsans">$23</p>
+                  <h4 className="text-gray-700 font-dmsans">Subtotal</h4>
+                  <p className="text-gray-700 font-dmsans">$23</p>
                 </div>
               </div>
 
               <div className="mx-3 h-1 bg-gray-200 rounded mt-2 mb-4"></div>
 
               <div className="px-10 flex flex-row justify-between mb-10">
-                  <h4 className="font-bold text-gray-700 font-font-dmsans">Total:</h4>
-                  <p className="text-gray-700 font-font-dmsans">$23</p>
+                  <h4 className="font-bold text-gray-700 font-dmsans">Total:</h4>
+                  <p className="text-gray-700 font-dmsans">$23</p>
                 </div>
 
               <div className=" flex justify-center mx-4 bg-green rounded">

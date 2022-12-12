@@ -9,7 +9,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 const index = ({ onClose }) => {
   // if ( !isVisible ) return null;
   const [navbar, setNavbar] = useState(false);
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
   const [show, setShow] = useState(false);
   const [open, setOpen] = useState(false);
   const router = useRouter();
@@ -143,7 +143,7 @@ const menuRef= useRef();
                 ) : (
                   <>
                     <Link href={"/login"}>
-                      <span className="flex flex-row text-gray-500 font-semibold font-font-dmsans">
+                      <span className="flex flex-row text-gray-500 font-semibold font-dmsans">
                         <User /> Login
                       </span>
                     </Link>
@@ -312,8 +312,8 @@ const menuRef= useRef();
                     </li>
                   ) : (
                     <>
-                      <button className="mb-5" onClick={() => setShow(true)}>
-                        <span className="flex flex-row text-gray-500 font-semibold font-font-dmsans ">
+                      <button className="mb-5 pl-4" onClick={() => setShow(true)}>
+                        <span className="flex flex-row text-gray-500 font-semibold font-dmsans ">
                           <User /> Login
                         </span>
                       </button>

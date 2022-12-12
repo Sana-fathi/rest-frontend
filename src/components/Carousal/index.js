@@ -18,7 +18,7 @@ function index(props) {
             </div>
           </div>
           <div className="info flex justify-center flex-col py-2">
-            <div className="px-5 text-gray-800 font-bold font-font-dmsans mb-2">
+            <div className="px-5 text-gray-800 font-bold font-dmsans mb-2">
               <Link href={"/"}>Biriyani</Link>
             </div>
             <div className="px-5 mb-2">

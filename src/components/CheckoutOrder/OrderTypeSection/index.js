@@ -26,7 +26,7 @@ function index() {
                       defaultValue="TAKEAWAY"
                     />
                     <label
-                      className="font-font-worksans text-sm text-gray-500"
+                      className="font-worksans text-sm text-gray-500"
                       htmlFor="check-order-takeaway"
                     >
                       Take-Away
@@ -41,7 +41,7 @@ function index() {
                       name="check-order-type"
                       defaultValue="DELIVERY"
                     />
-                    <label className="font-font-worksans text-sm text-gray-500" htmlFor="check-order-type">
+                    <label className="font-worksans text-sm text-gray-500" htmlFor="check-order-type">
                       Delivery
                     </label>
                   </div>
@@ -64,11 +64,11 @@ function index() {
                     name="check-order-time"
                     defaultValue="CURRENT_ORDER"
                   />
-                  <label className="font-font-worksans text-sm text-gray-600" htmlFor="check-order-now">
+                  <label className="font-worksans text-sm text-gray-600" htmlFor="check-order-now">
                     Earliest (30-60 Minss)
                   </label>
                   <div>
-                    <span className="font-font-worksans text-sm text-gray-500">Only Pre-Order accepted during closed hours</span>
+                    <span className="font-worksans text-sm text-gray-500">Only Pre-Order accepted during closed hours</span>
                   </div>
                 </div>
         
@@ -80,7 +80,7 @@ function index() {
                     name="check-order-time"
                     defaultValue="PRE_ORDER"
                   />
-                  <label className="font-font-worksans text-sm text-gray-600" htmlFor="check-preorder">
+                  <label className="font-worksans text-sm text-gray-600" htmlFor="check-preorder">
                     Pre Order
                   </label>
                 </div>
