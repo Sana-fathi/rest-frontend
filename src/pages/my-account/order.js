@@ -27,13 +27,13 @@ function order() {
             
             {/* Start: menu column */}
             <div className="col-12 col-lg-9" >
-              <div className='bg-green rounded md:w-[600px] mx-5'>
-                <h5 className="text-2xl  text-center uppercase text-white">My Orders</h5>
+              <div className='bg-green rounded md:w-72 lg:w-[600px] mx-5'>
+                <h5 className="text-xl font-dmsans text-center uppercase text-white py-1 ">My Orders</h5>
               </div>
               <div className='container'>
              
               <nav className='float-right'>
-                  <ul className="flex">
+                  <ul className="flex ">
                     <li ><a  className="page-link" href="" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
                 
                     <li ><a className="page-link" href="" aria-label="Next"><span aria-hidden="true">»</span></a></li>
