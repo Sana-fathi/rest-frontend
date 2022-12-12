@@ -27,7 +27,7 @@ function order() {
             
             {/* Start: menu column */}
             <div className="col-12 col-lg-9" >
-              <div className='bg-green rounded w-[600px]'>
+              <div className='bg-green rounded md:w-[600px] mx-5'>
                 <h5 className="text-2xl  text-center uppercase text-white">My Orders</h5>
               </div>
               <div className='container'>
