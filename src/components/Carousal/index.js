@@ -1,7 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 // import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import {BsCartPlus} from 'react-icons/bs'
+
 // import './carousel.css'
 // import {BsDot} from 'react-icons/bs'
 
@@ -10,29 +13,39 @@ function index(props) {
 
   function Slide() {
     return (
-      <div className="h-96 xl:h-[380px] sm:h-72 w-auto">
-        <div className="bg-gray-dim rounded-lg sm:w-48 xl:w-64 mx-10">
-          <div className="rounded-b-sm">
-            <div>
-              <img className="rounded-t-lg" src={"/assets/img4.jpeg"} />
-            </div>
+      <div className='bg-white shadow rounded-lg lg:w-48 xl:w-64 mx-10'>
+      <Link href={`/menu`}>
+          <Image 
+          src={"/assets/naan.jpeg"}
+          // alt={product.name}
+          className="rounded-t-lg object-cover w-full"
+          width={300}
+          height={300}
+          />
+      </Link>
+
+      <div className='flex flex-col justify-center px-4 py-4 m-2'>
+          <div className='flex flex-row justify-between'>
+          <Link href={`/menu`}>
+              <h2 className='text-lg font-bold text-gray-dark font-dmsans mb-1'>North Indian Thali</h2>
+          </Link>
+          <Image 
+          src={"/assets/meat.png"}
+          width={300}
+          height={300}
+          className="h-5 w-5"
+          />
           </div>
-          <div className="info flex justify-center flex-col py-2">
-            <div className="px-5 text-gray-800 font-bold font-dmsans mb-2">
-              <Link href={"/"}>Biriyani</Link>
-            </div>
-            <div className="px-5 mb-2">
-              <Link href={"/"}>$ 34</Link>
-            </div>
-            <button
-              type="button"
-              className="primary-button mx-4"
-            >
-              Add to Bag
-            </button>
-          </div>
-        </div>
+        
+          <p className='text-gray-dark font-bold'>$ 45</p>
+          <button
+           className='border-t pt-2  font-dmsans font-semibold inline-flex justify-center items-center' 
+           type='button'
+           >
+              <p className='px-2 text-black font-ubuntu font-semibold'>Add to cart</p><BsCartPlus stroke={3} size={20} className="text-red-400 font-bold"/>
+          </button>
       </div>
+  </div>
     );
   }
 
@@ -49,8 +62,8 @@ function index(props) {
     },
     tablet2: {
       breakpoint: { max: 768 , min: 464 },
-      items: 3,
-      slidesToSlide: 3, // optional, default to 1.
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
