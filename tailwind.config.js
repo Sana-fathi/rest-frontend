@@ -29,6 +29,7 @@ module.exports = {
         'worksans': ['Work Sans', 'sans-serif'],
         'dmsans': ['DM Sans', 'sans-serif'],
         'caveat' : ['Caveat', 'cursive'],
+        'ubuntu' : ['Ubuntu', 'sans-serif']
       },
       transitionProperty: {
         'left': 'left',

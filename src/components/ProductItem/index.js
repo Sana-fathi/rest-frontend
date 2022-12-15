@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
-
+import {BsCartPlus} from 'react-icons/bs'
 const index = ({product}) => {
   return (
-    <div className='card'>
+    <div className='bg-white shadow rounded-lg'>
         <Link href={`/menu`}>
             <Image 
             src={product.image}
@@ -15,16 +15,25 @@ const index = ({product}) => {
             />
         </Link>
 
-        <div className='flex flex-col  justify-center px-4 w-auto xl:w-72'>
+        <div className='flex flex-col justify-center px-4 py-4 m-2'>
+            <div className='flex flex-row justify-between'>
             <Link href={`/menu`}>
                 <h2 className='text-lg font-bold text-gray-dark font-dmsans mb-1'>{product.name}</h2>
             </Link>
-            <p className='mb-2 text-gray-dark font-bold'>{product.price}</p>
+            <Image 
+            src={product.food_category}
+            width={300}
+            height={300}
+            className="h-5 w-5"
+            />
+            </div>
+          
+            <p className='text-gray-dark font-bold'>$ {product.price}</p>
             <button
-             className='primary-button mb-2' 
+             className='border-t pt-2  font-dmsans font-semibold inline-flex justify-center items-center' 
              type='button'
              >
-                ADD TO CART
+                <p className='px-2 text-black font-ubuntu font-semibold'>Add to cart</p><BsCartPlus stroke={3} size={20} className="text-red-400 font-bold"/>
             </button>
         </div>
     </div>

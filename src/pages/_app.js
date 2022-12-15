@@ -1,4 +1,5 @@
 import "../../styles/globals.css";
+import "swiper/css/bundle";
 
 // import { Provider } from "react-redux";
 // import { configureStore } from "@reduxjs/toolkit";

@@ -19,51 +19,52 @@ const index = ({ isVisible, onClose }) => {
         onClick={handleClose}
       >
         <div className=" flex flex-col">
-          <div className="">
-            <div className="bg-white rounded w-96 h-screen mt-8">
-              <button
+          <div className="bg-[#f2f1ed] rounded w-96 h-screen mt-8 ">
+          <button
                 type="button"
-                className="text-black px-2 py-2"
+                className="text-black px-4 py-4"
                 onClick={() => onClose()}
               >
                 <MenuClose />
               </button>
+            <div className="bg-white rounded-lg shadow mx-2 p-2">
+           
 
               {/* LOGIN FORM STARTS */}
 
               <div className=" flex justify-center mb-10">
-                <h3 className="text-xl text-center font-dmsans font-bold text-gray-700">
+                <h3 className="text-xl text-center font-ubuntu font-bold text-gray-700">
                   SHOPPING BAG
                 </h3>
               </div>
 
-              <div className="px-10 space-y-2">
+              <div className="px-10 space-y-2 ">
                 <div className="flex flex-row justify-between">
-                  <h4 className="font-semibold font-dmsans text-gray-700">Subtotal:</h4>
-                  <p className="text-gray-700 font-dmsans">$23</p>
+                  <h4 className="font-semibold font-ubuntu text-gray-500">Subtotal:</h4>
+                  <p className="text-gray-700 font-ubuntu">$23</p>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <h4 className="text-gray-700 font-dmsans">Shipping</h4>
+                  <h4 className="text-gray-700 font-ubuntu">Shipping</h4>
                   <p className="text-gray-700">$23</p>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <h4 className="text-gray-700 font-dmsans">Subtotal</h4>
-                  <p className="text-gray-700 font-dmsans">$23</p>
+                  <h4 className="text-gray-700 font-ubuntu">Subtotal</h4>
+                  <p className="text-gray-700 font-ubuntu">$23</p>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <h4 className="text-gray-700 font-dmsans">Subtotal</h4>
-                  <p className="text-gray-700 font-dmsans">$23</p>
+                  <h4 className="text-gray-700 font-ubuntu">Subtotal</h4>
+                  <p className="text-gray-700 font-ubuntu">$23</p>
                 </div>
               </div>
 
-              <div className="mx-3 h-1 bg-gray-200 rounded mt-2 mb-4"></div>
+              <div className="mx-3 h-[1px] bg-gray-200 rounded mt-2 mb-4"></div>
 
               <div className="px-10 flex flex-row justify-between mb-10">
-                  <h4 className="font-bold text-gray-700 font-dmsans">Total:</h4>
-                  <p className="text-gray-700 font-dmsans">$23</p>
+                  <h4 className="font-bold text-gray-700 font-ubuntu">Total:</h4>
+                  <p className="text-gray-700 font-ubuntu">$23</p>
                 </div>
 
-              <div className=" flex justify-center mx-4 bg-green rounded">
+              <div className=" flex justify-center mx-4 bg-[#333] rounded">
                 <Link href={"/checkout"}>
                 <button
                   type="button"

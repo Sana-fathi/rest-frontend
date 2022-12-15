@@ -325,31 +325,31 @@ const menuRef= useRef();
             </header>
           </div>
         ) : (
-          <div className="hidden md:flex items-center h-10 bg-green">
+          <div className="hidden md:flex items-center h-10 bg-[#333] border-0">
             <header className="container flex justify-center mx-auto">
               <ul className="inline-flex font-mono text-white">
                 <Link href="/">
-                  <li className="mx-2 px-6 hover:border-b-2 hover:border-white">
+                  <li className="mx-2 px-6  hover:text-amber-400">
                     Home
                   </li>
                 </Link>
                 <Link href="about">
-                  <li className="mx-2 px-6 hover:border-b-2 hover:border-white">
+                  <li className="mx-2 px-6  hover:text-amber-400">
                     About
                   </li>
                 </Link>
                 <Link href="menu">
-                  <li className="mx-2 px-6 hover:border-b-2 hover:border-white">
+                  <li className="mx-2 px-6  hover:text-amber-400">
                     Menu
                   </li>
                 </Link>
                 <Link href="deals">
-                  <li className="mx-2 px-6 hover:border-b-2 hover:border-white">
+                  <li className="mx-2 px-6  hover:text-amber-400">
                     Deals
                   </li>
                 </Link>
                 <Link href="contact">
-                  <li className="mx-2 px-6 hover:border-b-2 hover:border-white">
+                  <li className="mx-2 px-6 hover:text-amber-400">
                     Contact
                   </li>
                 </Link>
