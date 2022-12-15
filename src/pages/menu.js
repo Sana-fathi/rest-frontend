@@ -37,7 +37,7 @@ function menu({onClose}) {
 
 
 
-      <div className="flex flex-col md:flex-row  px-2 m-8">
+      <div className="flex flex-col md:flex-row  px-2 m-8 mb-0 pb-5">
       {/* <div className="bg-green rounded text-center py-1 "><h3 className="font-medium text-white">Category</h3></div> */}
 
         <div className="hidden lg:flex">
