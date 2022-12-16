@@ -171,6 +171,7 @@ const menuRef= useRef();
           <Bag isVisible={open} onClose={() => setOpen(false)} />
         </div>
         {navbar ? (
+        
           <div className=" items-center h-auto bg-white md:hidden  " ref={menuRef} >
             <header className={`container flex justify-center mx-auto
             ${navbar ? 'translate-x-0' : 'translate-x-full' } ease-in-out duration-500
@@ -329,27 +330,27 @@ const menuRef= useRef();
             <header className="container flex justify-center mx-auto">
               <ul className="inline-flex font-mono text-white">
                 <Link href="/">
-                  <li className="mx-2 px-6  hover:text-amber-400">
+                  <li className="mx-2 px-6 font-ubuntu  hover:text-amber-400">
                     Home
                   </li>
                 </Link>
                 <Link href="about">
-                  <li className="mx-2 px-6  hover:text-amber-400">
+                  <li className="mx-2 px-6 font-ubuntu  hover:text-amber-400">
                     About
                   </li>
                 </Link>
                 <Link href="menu">
-                  <li className="mx-2 px-6  hover:text-amber-400">
+                  <li className="mx-2 px-6 font-ubuntu hover:text-amber-400">
                     Menu
                   </li>
                 </Link>
                 <Link href="deals">
-                  <li className="mx-2 px-6  hover:text-amber-400">
+                  <li className="mx-2 px-6 font-ubuntu hover:text-amber-400">
                     Deals
                   </li>
                 </Link>
                 <Link href="contact">
-                  <li className="mx-2 px-6 hover:text-amber-400">
+                  <li className="mx-2 px-6 font-ubuntu hover:text-amber-400">
                     Contact
                   </li>
                 </Link>

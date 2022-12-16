@@ -10,7 +10,7 @@ function index() {
             <div className="wrapper antialiased text-gray-900">
               <div>
                 <img
-                  src={"/assets/img3.jpeg"}
+                  src={"./assets/snacks.jpeg"}
                   alt=" random imgee"
                   className="w-full object-cover object-center rounded shadow-md"
                 />
@@ -49,10 +49,10 @@ function index() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col ">
           
             <div className=" md:w-full px-8 py-6 lg:border-l-2 lg:border-gray-dim border-opacity-60 hover:shadow-md">
-              <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">
+              <h2 className=" sm:text-xl text-gray-900 font-bold font-caveat text-xl title-font mb-2">
                 Melanchole
               </h2>
               <p className="leading-relaxed text-base mb-4 font-dmsans font-medium">
@@ -76,7 +76,7 @@ function index() {
               </a>
             </div>
             <div className=" md:w-full px-8 py-6 lg:border-l-2 lg:border-gray-dim border-opacity-60 hover:shadow-md">
-            <h2 className="text-lg sm:text-xl text-gray-900 font-bold title-font mb-2">
+            <h2 className=" sm:text-xl text-gray-900 font-bold font-caveat text-xl title-font mb-2">
               Melanchole
             </h2>
             <p className="leading-relaxed text-base mb-4 font-dmsans font-medium">

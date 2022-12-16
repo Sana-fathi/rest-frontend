@@ -10,7 +10,7 @@ function about(props) {
       <section className="text-gray-600 body-font">
   <div className="container px-5 py-16 mx-auto flex flex-col">
     <div className='flex flex-col items-center justify-center'>
-    <p className='bg-tbRed px-1 py-1 rounded-lg w-28 text-white font-medium text-center mb-4'>About us</p>
+    <p className='font-caveat px-1 py-1 rounded-lg w-28 text-[#333] text-xl font-medium text-center'>About us</p>
     <h3 className='text-center font-extrabold font-worksans text-4xl mb-3'>Our Story</h3>
     <div className="w-12 h-1 bg-gray-300 rounded mt-2 mb-4"></div>
       </div>

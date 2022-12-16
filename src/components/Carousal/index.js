@@ -39,10 +39,10 @@ function index(props) {
         
           <p className='text-gray-dark font-bold'>$ 45</p>
           <button
-           className='border-t pt-2  font-dmsans font-semibold inline-flex justify-center items-center' 
+           className='border-t my-2  rounded ease-in-out duration-300   focus-within:bg-orange  bg-[#333] font-dmsans  inline-flex justify-center items-center' 
            type='button'
            >
-              <p className='px-2 text-black font-ubuntu font-semibold'>Add to cart</p><BsCartPlus stroke={3} size={20} className="text-red-400 font-bold"/>
+              <p className='px-2 py-2 text-white font-ubuntu '>Add to cart</p><BsCartPlus stroke={3} size={20} className="text-red-400 font-bold"/>
           </button>
       </div>
   </div>

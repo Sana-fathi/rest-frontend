@@ -18,7 +18,7 @@ const index = ({ isVisible, onClose }) => {
         id="wrapper"
         onClick={handleClose}
       >
-        <div className=" flex flex-col">
+        <div className=" flex flex-col overflow-y-auto">
           <div className="bg-[#f2f1ed] rounded w-96 h-screen mt-8 ">
             <button
               type="button"

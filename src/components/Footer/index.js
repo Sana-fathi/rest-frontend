@@ -113,7 +113,7 @@ height:"auto"}}>
           <p className="text-white text-2xl font-worksans font-extrabold lg:w-72">
             ¿Te apasiona ayudar a tu comunidad?
           </p>
-          <h1 className="text-white text-5xl font-worksans font-extrabold">
+          <h1 className="text-amber-400 text-5xl font-ubuntu font-extrabold">
             Fonditas
           </h1>
           <div className="px-5">
@@ -121,13 +121,13 @@ height:"auto"}}>
               className="flex flex-row justify-center lg:justify-start mt-3"
             >
               <Link href={"/"}>
-                <div className="bg-tbRed p-2 rounded-full">
+                <div className="  p-2 rounded-full">
                   <RiFacebookFill size={20} fill="white" />
                 </div>
               </Link>
               <Link href={"/"}>
                 <div
-                  className="bg-tbRed p-2 mx-2 rounded-full"
+                  className="  p-2 mx-2 rounded-full"
                   
                 >
                   <IoLogoTwitter size={20} fill="white" />
@@ -135,7 +135,7 @@ height:"auto"}}>
               </Link>
               <Link href={"/"}>
                 <div
-                  className="bg-tbRed p-2 rounded-full">
+                  className="  p-2 rounded-full">
                   <FaInstagram size={20} fill="white" />
                 </div>
               </Link>
@@ -144,8 +144,8 @@ height:"auto"}}>
         </div>
         <div className="flex  flex-row justify-center mt-5 xl:mx-20">
           <div className="px-4 text-white mx-10 font-dmsans">
-          <div className="">Menu</div>
-          <ul className="list">
+          <div className="font-caveat text-xl">Menu</div>
+          <ul className="list font-ubuntu">
             <Link href={"/"}>
               <li>Nosotros</li>
             </Link>
@@ -167,7 +167,7 @@ height:"auto"}}>
        
         <div className="flex justify-around mt-3">
           <form>
-            <h3 className="text-white font-dmsans">Subscribe</h3>
+            <h3 className="text-white text-xl font-caveat">Subscribe</h3>
             <div className="">
               <input
                 onChange={(e) => setField("mail", e.target.value)}
@@ -184,7 +184,7 @@ height:"auto"}}>
                 stroke="#777f86d4"
                 size={30}
                 type="submit"
-                className="absolute ml-60 mt-[-30px]"
+                className="absolute ml-60 mt-[-32px]"
               />
             </div>
             <div className={errors.state}>{errors.mail}</div>
