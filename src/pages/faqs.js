@@ -21,7 +21,7 @@ function faqs() {
           {/* <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
         
           </div> */}
-             <img src={'/assets/faq.png'} className="ml-10 anima"/> 
+             <img src={'/assets/faq.png'} className="ml-36 md:ml-10 text-center"/> 
           <div className="flex flex-col items-center text-center justify-center">
             <h2 className="font-bold mt-4 text-gray-700 text-3xl font-ubuntu">Faqs</h2>
             <div className="w-12 h-1 bg-amber-500 rounded mt-2 mb-4"></div>

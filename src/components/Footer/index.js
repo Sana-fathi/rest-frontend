@@ -142,7 +142,7 @@ height:"auto"}}>
             </div>
           </div>
         </div>
-        <div className="flex  flex-row justify-center mt-5 xl:mx-20 space-x-10">
+        <div className="flex  flex-row justify-center mt-5 xl:mx-20 space-x-10 md:space-x-[300px] lg:space-x-0">
           <div className="md:px-4 text-white md:mx-10 font-dmsans">
           <div className="font-caveat text-xl mb-2">Learn more</div>
           <ul className=" font-ubuntu">

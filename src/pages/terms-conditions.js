@@ -18,19 +18,19 @@ function termsAndConditions
             <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"/>
           </div> */}
           <div className="flex flex-col md:flex-row mt-10">
-            <div className="sm:w-1/4 text-center sm:pr-8 sm:py-8">
+            <div className="sm:w-1/4 lg:text-center sm:pr-8 sm:py-8">
               {/* <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
             
               </div> */}
-                 <img src={'/assets/file.png'} className="ml-10 anima"/> 
-              <div className="flex flex-col items-center text-center justify-center">
+                 <img src={'/assets/file.png'} className="ml-10"/> 
+              <div className="flex flex-col lg:items-center lg:text-center md:justify-center ml-10 lg:ml-0">
                 <h2 className="font-bold mt-4 text-gray-700 text-3xl font-ubuntu">Terms & Conditions</h2>
                 <div className="w-12 h-1 bg-amber-500 rounded mt-2 mb-4"></div>
                 {/* <p className="text-base">Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.</p> */}
               </div>
             </div>
     
-            <div className="w-full px-4">
+            <div className="w-full px-4 m-5">
             <div className='py-12'>
           {/* Start: 1 Row 2 Columns */}
           <div className="container">
@@ -42,7 +42,7 @@ function termsAndConditions
                     <h1 style={{marginBottom: '3%', color: 'var(--bs-danger)', fontFamily: 'Aclonica, sans-serif', textAlign: 'left'}}>Terms &amp; Conditions<br /></h1>
                   </div> */}
                 </div>
-                <div className="row">
+                <div className="row" >
                   <div className="">
                     <p className='font-light font-ubuntu text-gray-500'>We may update our Terms and Conditions from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</p>                                
                     
