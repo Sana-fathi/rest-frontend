@@ -40,7 +40,7 @@ export default function Section1() {
   return (
     <>
       <section className="bg-[#333]">
-        <div className="container">
+        <div className="container ">
           <Swiper
             cssMode={true}
             style={{
@@ -77,7 +77,7 @@ export default function Section1() {
 
 function Slide() {
   return (
-    <div className="">
+    <div className="m-4">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="">
           <Link href={"/"}>
@@ -85,14 +85,14 @@ function Slide() {
               src={
                 "https://t4.ftcdn.net/jpg/02/84/46/89/240_F_284468940_1bg6BwgOfjCnE3W0wkMVMVqddJgtMynE.jpg"
               }
-              className="lg:h-[600px] w-full object-cover lg:object-contain"
+              className="lg:h-[600px] w-full object-cover lg:object-contain "
             />
           </Link>
         </div>
 
-        <div className=" flex justify-center flex-col items-center bg-black border-8 xl:border-[20px] border-dashed ">
+        <div className="mx-3 px-3 py-6 md:py-4 mt-[-30px] md:mt-0 flex justify-center flex-col items-center bg-black border-gray-50/30 border-2 md:border-8 xl:border-[80px] border-dashed ">
        
-          <div className="text-yellow text-4xl font-caveat">
+          <div className="text-yellow text-4xl text-center font-caveat">
             <Link href={"/"}>Best Way to Order Your Favourite Food!</Link>
           </div>
           <p className="text-gray-50/80 font-bold py-3 px-3 mx-3 text-center font-worksans ">

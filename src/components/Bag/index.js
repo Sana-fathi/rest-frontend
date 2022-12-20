@@ -14,7 +14,7 @@ const index = ({ isVisible, onClose }) => {
   return (
     <div>
       <div
-        className="fixed inset-0 bg-black bg-opacity-60 backdrop:blur-sm flex justify-end"
+        className="fixed inset-0 bg-black bg-opacity-60 backdrop:blur-sm flex justify-end transition duration-300"
         id="wrapper"
         onClick={handleClose}
       >

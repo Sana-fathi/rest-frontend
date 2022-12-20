@@ -142,22 +142,25 @@ height:"auto"}}>
             </div>
           </div>
         </div>
-        <div className="flex  flex-row justify-center mt-5 xl:mx-20">
-          <div className="px-4 text-white mx-10 font-dmsans">
-          <div className="font-caveat text-xl">Menu</div>
-          <ul className="list font-ubuntu">
-            <Link href={"/"}>
-              <li>Nosotros</li>
+        <div className="flex  flex-row justify-center mt-5 xl:mx-20 space-x-10">
+          <div className="md:px-4 text-white md:mx-10 font-dmsans">
+          <div className="font-caveat text-xl mb-2">Learn more</div>
+          <ul className=" font-ubuntu">
+            <Link href={"/terms-conditions"}>
+              <li className="font-light text-sm">Terms & Conditions</li>
             </Link>
-            <Link href={"/"}>
-              <li>Nosotros</li>
+            <Link href={"/faqs"}>
+              <li className="font-light text-sm">FAQs</li>
+            </Link>
+            <Link href={"/privacy-policy"}>
+              <li className="font-light text-sm">Privacy policy</li>
             </Link>
           </ul>
         </div>
-        <div className="text-white px-5 mx-10 font-dmsans">
+        <div className="md:px-4 text-white md:mx-10 font-dmsans">
           <ul className="list">
             <Link href={"/"}>
-              <li>Nosotros</li>
+              <li>contact us</li>
             </Link>
             <Link href={"/"}>
               <li>Nosotros</li>
@@ -176,7 +179,7 @@ height:"auto"}}>
                 name="mail"
                 id="newsletter"
                 placeholder="Email"
-                className="relative flex flex-row md:justify-center md:items-center w-72 h-9 px-2 rounded"
+                className="relative flex flex-row md:justify-center md:items-center w-72 lg:w-[250px] xl:w-72 h-9 px-2 rounded"
                 required
               />
               <FiSend
@@ -184,7 +187,7 @@ height:"auto"}}>
                 stroke="#777f86d4"
                 size={30}
                 type="submit"
-                className="absolute ml-60 mt-[-32px]"
+                className="absolute ml-[250px] lg:ml-[209px] xl:ml-60 mt-[-32px]"
               />
             </div>
             <div className={errors.state}>{errors.mail}</div>
@@ -194,19 +197,19 @@ height:"auto"}}>
 
       <div style={{}}>
         <div
-          className=""
-          style={{
-            paddingTop: "15px",
-            paddingBottom: "15px",
-            paddingLeft: "20px",
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            borderTopStyle: "solid",
-            borderTopColor: "#9B9B9B",
-            marginLeft: "50px",
-            marginRight: "50px",
-          }}
+          className="py-5 pl-5 flex flex-row justify-center border-t border-t-[#9B9B9B]/25 mx-12"
+          // style={{
+          //   paddingTop: "15px",
+          //   paddingBottom: "15px",
+          //   paddingLeft: "20px",
+          //   display: "flex",
+          //   flexDirection: "row",
+          //   justifyContent: "center",
+          //   borderTopStyle: "solid",
+          //   borderTopColor: "#9B9B9B",
+          //   marginLeft: "50px",
+          //   marginRight: "50px",
+          // }}
         >
           <div>
             <small style={{ color: "#eeeeee" }}>

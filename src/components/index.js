@@ -1,4 +1,3 @@
-import HeroSlider from "./HeroSlider";
 import Footer from './Footer'
 import Navigation from './Navigation'
 import Icons from './Icons'
@@ -20,7 +19,8 @@ import DashboardMenu from "./DashboardMenu";
 import UserInformation from './UserInformation'
 import UserPassword from './UserPassword'
 import CheckoutOrder from './CheckoutOrder'
+
 export {
-    HeroSlider,Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod,Bag, Category
+  Footer,Navigation,Icons,PincodeInput,Layout,TopBar,OfferImages,Cards,Carousal,About,ProductItem,HeaderSlider,DeliveryMethod,Bag, Category
 ,  LoginPop, UserAccount,DashboardMenu, UserInformation, UserPassword, CheckoutOrder
 }

@@ -13,23 +13,21 @@ const index = ({ onClose }) => {
   const [show, setShow] = useState(false);
   const [open, setOpen] = useState(false);
   const router = useRouter();
-  const reflink = useRef(); 
+  const reflink = useRef();
 
-// const handleClose = (e) => {
-//     if (e.target.id === 'wrapper') onClose();
-// }
+  // const handleClose = (e) => {
+  //     if (e.target.id === 'wrapper') onClose();
+  // }
 
-const menuRef= useRef();
+  const menuRef = useRef();
 
-    useEffect(() => {
-      document.addEventListener("mousedown", (e) => {
-        if(menuRef.current && !menuRef.current.contains(e.target)) {
-          setNavbar(false);
-        }
-      }) 
-    },[])
-
-
+  useEffect(() => {
+    document.addEventListener("mousedown", (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setNavbar(false);
+      }
+    });
+  }, []);
 
   const handleLogOut = (e) => {
     e.preventDefault();
@@ -39,7 +37,7 @@ const menuRef= useRef();
   return (
     <>
       <nav className="shadow sticky fixed-top top-8 z-50 md:shadow-none bg-white">
-        <div className="container mx-auto px-2 py-1 md:py-2 flex justify-between" >
+        <div className="container mx-auto px-2 py-1 md:py-2 flex justify-between">
           {/* <div className="px-3 py-3 md:hidden"> */}
           <div className="px-3 py-3 md:hidden ">
             <button
@@ -68,7 +66,7 @@ const menuRef= useRef();
                       <Menu as="div" className="relative inline-block">
                         <div>
                           <Menu.Button className="inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-                           <User /> <p className="text-gray-600">user</p>
+                            <User /> <p className="text-gray-600">user</p>
                             <ChevronDownIcon
                               className=" -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
                               aria-hidden="true"
@@ -89,15 +87,15 @@ const menuRef= useRef();
                               <Menu.Item>
                                 {({ active }) => (
                                   <Link href={"/my-account"}>
-                                  <button
-                                    className={`${
-                                      active
-                                        ? "bg-violet-500 text-white"
-                                        : "text-gray-900"
-                                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                                  >
-                                    Dashboard
-                                  </button>
+                                    <button
+                                      className={`${
+                                        active
+                                          ? "bg-violet-500 text-white"
+                                          : "text-gray-900"
+                                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                    >
+                                      Dashboard
+                                    </button>
                                   </Link>
                                 )}
                               </Menu.Item>
@@ -106,15 +104,15 @@ const menuRef= useRef();
                               <Menu.Item>
                                 {({ active }) => (
                                   <Link href={"/my-account/profile"}>
-                                  <button
-                                    className={`${
-                                      active
-                                        ? "bg-violet-500 text-white"
-                                        : "text-gray-900"
-                                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                                  >
-                                    Profile
-                                  </button>
+                                    <button
+                                      className={`${
+                                        active
+                                          ? "bg-violet-500 text-white"
+                                          : "text-gray-900"
+                                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                    >
+                                      Profile
+                                    </button>
                                   </Link>
                                 )}
                               </Menu.Item>
@@ -154,8 +152,8 @@ const menuRef= useRef();
 
               <li className="pt-1">
                 {" "}
-                <button type="button" onClick={() => setOpen(true)}>
-                  <div className="relative">
+                <button className="mt-2" type="button" onClick={() => setOpen(true)}>
+                  <div className="relative ">
                     <Cart />
                     <span className="absolute -top-2 -right-2 text-[13px] bg-tbRed h-[18px] w-[18px] rounded-full grid place-items-center text-white">
                       2
@@ -171,11 +169,17 @@ const menuRef= useRef();
           <Bag isVisible={open} onClose={() => setOpen(false)} />
         </div>
         {navbar ? (
-        
-          <div className=" items-center h-auto bg-white md:hidden  " ref={menuRef} >
-            <header className={`container flex justify-center mx-auto
-            ${navbar ? 'translate-x-0' : 'translate-x-full' } ease-in-out duration-500
-            `}>
+          <div
+            className="top-0 right-0 inset-0 shadow-md items-center h-auto bg-white md:hidden  "
+            ref={menuRef}
+          >
+            <header
+              className={`container flex justify-center mx-auto inset-x-0
+            ${
+              navbar ? "translate-x-0" : "translate-x-full"
+            } ease-in-out duration-500
+            `}
+            >
               <ul className=" font-mono text-center text-gray-dark ">
                 <Link href="/">
                   <li className="mx-2 px-4 py-4 hover:border-b-2 hover:border-green">
@@ -226,7 +230,7 @@ const menuRef= useRef();
                             leaveFrom="transform opacity-100 scale-100"
                             leaveTo="transform opacity-0 scale-95"
                           >
-                            <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            <Menu.Items className="absolute right-0 mt-2 lg:w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none left-[-120px] w-[353px]">
                               <div className="px-1 py-1 ">
                                 <Menu.Item>
                                   {({ active }) => (
@@ -237,17 +241,6 @@ const menuRef= useRef();
                                           : "text-gray-900"
                                       } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
-                                      {active ? (
-                                        <EditActiveIcon
-                                          className="mr-2 h-5 w-5"
-                                          aria-hidden="true"
-                                        />
-                                      ) : (
-                                        <EditInactiveIcon
-                                          className="mr-2 h-5 w-5"
-                                          aria-hidden="true"
-                                        />
-                                      )}
                                       Dashboard
                                     </button>
                                   )}
@@ -263,17 +256,6 @@ const menuRef= useRef();
                                           : "text-gray-900"
                                       } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
-                                      {active ? (
-                                        <ArchiveActiveIcon
-                                          className="mr-2 h-5 w-5"
-                                          aria-hidden="true"
-                                        />
-                                      ) : (
-                                        <ArchiveInactiveIcon
-                                          className="mr-2 h-5 w-5"
-                                          aria-hidden="true"
-                                        />
-                                      )}
                                       Profile
                                     </button>
                                   )}
@@ -290,17 +272,6 @@ const menuRef= useRef();
                                           : "text-gray-900"
                                       } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                     >
-                                      {/* {active ? (
-                                          <ArchiveActiveIcon
-                                            className="mr-2 h-5 w-5"
-                                            aria-hidden="true"
-                                          />
-                                        ) : (
-                                          <ArchiveInactiveIcon
-                                            className="mr-2 h-5 w-5"
-                                            aria-hidden="true"
-                                          />
-                                        )} */}
                                       Log out
                                     </button>
                                   )}
@@ -313,7 +284,10 @@ const menuRef= useRef();
                     </li>
                   ) : (
                     <>
-                      <button className="mb-5 pl-4" onClick={() => setShow(true)}>
+                      <button
+                        className="mb-5 pl-4"
+                        onClick={() => setShow(true)}
+                      >
                         <span className="flex flex-row text-gray-500 font-semibold font-dmsans ">
                           <User /> Login
                         </span>
